@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Limit
   - Obstacle
+  - HitSound
+  - Ground
   layers:
   - Default
   - TransparentFX
