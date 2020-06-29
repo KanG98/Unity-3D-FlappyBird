@@ -7,18 +7,17 @@ public class ObstacleManager : MonoBehaviour
     
     public float speed;
     
+            
     
-
+    void Start()
+    {
+        
+    }
     // Update is called once per frame
     void Update(){   
         if(gameObject.tag == "Obstacle"){
             transform.Translate(Vector3.forward*speed*Time.deltaTime);}
-
+            
+        
     }
-
-    
-
-    // public void obsGenerator(){
-    //     Instantiate(gameObject, new Vector3(35, 6.1, -2.5))
-    // }
 }

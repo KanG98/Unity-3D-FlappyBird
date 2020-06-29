@@ -8,9 +8,10 @@ public class FollowBird : MonoBehaviour
     public Transform player;
     public float distanceX;
     public float distanceZ;
-    void Start()
-    {
 
+   
+    void Start()
+    {   
     }
 
     // Update is called once per frame
@@ -18,6 +19,7 @@ public class FollowBird : MonoBehaviour
     {   
         
         gameObject.transform.position = player.position + new Vector3(-distanceX, 0, distanceZ);
+        
         
     }
 }

@@ -22,6 +22,7 @@ public class BirdMovement : MonoBehaviour
             
             rb.velocity = Vector3.up*force;
             sound.Play(); 
+        
             
             
             // rb.AddForce(Vector3.up* force* Time.deltaTime);
